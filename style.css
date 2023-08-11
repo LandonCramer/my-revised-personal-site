@@ -1,3 +1,11 @@
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #EAF6F6;
+    line-height:normal;
+  }
 /* navigation bar */
 ul {
     list-style-type: none;
