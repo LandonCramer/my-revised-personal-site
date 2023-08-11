@@ -27,3 +27,35 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
  }
+
+ /* about me Section */
+ .about_me p {
+    font-size: 1.2rem;
+  }
+  #about{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 4rem;
+  font-family: 'Sacramento', cursive;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #66BFBF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+   }
+   #about:hover {
+    background-color: #11cdd4;
+  }   
+ .about_me {
+    max-width: auto;
+    height: 500px;
+    margin:auto;
+    padding-bottom: 50px;
+    background-image: url('ocean.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+ }
