@@ -16,3 +16,14 @@ ul {
     top: 0;
     width: 100%;
   }
+/* header background picture */
+.my_picture {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 500px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    background-image: url('baileyAndI.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+ }
