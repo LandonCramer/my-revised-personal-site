@@ -2,11 +2,11 @@
 var h1Element = document.getElementById('landon');
 
 h1Element.addEventListener('mouseover', function() {
-    h1Element.style.fontSize = "40px";
+    h1Element.style.fontSize = "24px";
 });
 
 h1Element.addEventListener('mouseout', function() {
-    h1Element.style.fontSize = "24px";
+    h1Element.style.fontSize = "4rem";
 });
 
 //making the about me a click event, showing info paragraph
