@@ -10,9 +10,9 @@
     <div>
         <!-- navigation bar -->
        <div>
-         <ul>
-             <li><a href="#home">Experience</a></li>
-             <li><a href="#news">Work</a></li>
+         <ul id="web">
+             <li><a href="#ex">Experience</a></li>
+             <li><a href="#skill">Skills</a></li>
              <li><a href="#btn">Contact</a></li>
              <li style="float:right"><a class="active" href="#about">About Me</a></li>
            </ul>
@@ -22,17 +22,38 @@
      <div class="my_picture">
         <h1 id="landon">Hey, I'm Landon Cramer</h1>
      </div>
-     <p>Self driven, quick starter, passionate programmer with a curious mind who loves solving a very complex, very challenging real-world problem.</p>
+     <p id="driven">Self driven, quick starter, passionate programmer with a curious mind who loves solving a very complex, very challenging real-world problem.</p>
      
      <!-- About me section -->
      <div class="about_me">
         <button id="about" onclick="clickAboutMe()">About Me.</button>
         <p id="aboutMeContent"></p>
      </div>
+     <!-- My Experience -->
+     
+     <section id="ex" class="experience">
+        <h1>Experience.</h1>
+        <div class="experience-item">
+            <h3>Technical Assessment Admissions, Hack Reactor, Apr 2023</h3>
+            <p>Successfully passed technical assessment for 12-week coding bootcamp</p>
+            <p>Demonstrated proficiency in fundamental coding concepts and JavaScript programming</p>
+            <p>Completed courses in CS50's Introduction to Computer Science and Udemy's the Complete 2023 Web Development Bootcamp</p>
+        </div>
+        <div class="experience-item">
+            <h3>CineLux Plaza Theatre, Customer Service Representative, Apr 2011 - Sep 2011</h3>
+            <p>Collaborated with team members to deliver an exceptional customer experience</p>
+            <p>Developed strong sales and organizational skills while helping the company achieve its top-line revenue goals</p>
+        </div>
+        <div class="experience-item">
+            <h3>Classic Car Wash, Auto Detailer, Jun 2009 - Sep 2009</h3>
+            <p>Maintained a clean and organized work environment to ensure efficiency and productivity</p>
+            <p>Demonstrated excellent customer service skills through regular customer interactions</p>
+        </div>
+    </section>
 
      <!-- My skills -->
      <div>
-        <h1> My Skills.</h1>
+        <h1 id="skill"> My Skills.</h1>
         <section id="skills" class="services">
            <div class="container">
              <div class="section-title">
@@ -91,7 +112,7 @@
      <div class="bottom-container">
         <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
         <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <a class="footer-link" href="#web">Website</a>
         <p id="container">© Landon Cramer</p>
       </div>
       <script src="script.js"></script>
