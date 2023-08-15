@@ -104,6 +104,9 @@ li a:hover:not(.active) {
 .experience {
     margin-top: 20px;
 }
+#exper {
+    font-size: 2rem
+}
 
 .experience-item {
     margin-bottom: 20px;
